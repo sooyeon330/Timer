@@ -51,6 +51,7 @@
             this.btncount.TabIndex = 1;
             this.btncount.Text = "카운트다운";
             this.btncount.UseVisualStyleBackColor = true;
+            this.btncount.Click += new System.EventHandler(this.btncount_Click);
             // 
             // txtCountdown
             // 
@@ -65,6 +66,7 @@
             // Timer
             // 
             this.Timer.Interval = 1000;
+            this.Timer.Tick += new System.EventHandler(this.Timer_Tick);
             // 
             // Form1
             // 
